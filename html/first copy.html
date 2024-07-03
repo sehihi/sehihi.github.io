@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> 감자 </title>
+		<meta charset="UTF-8"></meta> 
+		<style>
+			table * {
+				border: 1px solid gray;
+			}
+		</style>
+		<style>
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			*{
+				background-color: rgba(0,0,0,0.05);
+				border: 1px solid rgba(0,0,0,0.05);
+			}
+			html,body{
+				background-color: unset	;
+			}
+			blockquote{
+				color:blue;
+				margin: 24px;
+				padding: 24px;
+				text-align: center;
+				border-radius: 16px;
+				background-color: gray;
+			}
+			h1 {
+				font-size: 20px;
+				color: rgb(255, 0, 200);
+				text-align: center; 
+				margin: 18px;
+			}
+			a,h2, .RED{
+				color: red;
+			}
+			html{
+				padding: 10px;
+			}
+			.emphasize{
+				color: red;
+			}
+			.center{
+				width: 30%;
+				border-radius: 10000px;
+				margin: 0px 12px 24px 12px;
+				box-shadow: 10px 10px 20px -4px gray;
+	
+			}
+			#profile{
+				width: 100%;
+				border-radius: 10000px;
+			}
+			input[type="submit"]{
+				padding: 12px;
+			}
+			a img{
+				width: 30%;
+			}
+
+		</style>
+	</head>
+	<body>
+		<h1>신입개발자 윤세현</h1>
+        <div class="center"><img id="profile" src = "./세현.jpg" alt="윤세현 프로필 사진."/></div>
+		<!-- 가운데 정렬을 위해서 넣었습니다. -->
+		<blockquote cite="https://github.com/naver/d2codingfont/releases/tag/VER1.3.2">사용자의 문제가 곧 나의 문제</blockquote>
+        <a href="https://www.instagram.com/" target = "_blank">인스타 </a>
+        <a href="" target = "_blank">인스타 </a>
+        <a href="https://www.instagram.com/" target = "_blank">인스타 </a>
+		<!-- <a href="">
+			<img src="세현.jpg" alt="">
+			<span>수업 종료</span>
+		</a> -->
+		<dl>
+			<dt class="RED">이름</dt>
+			<dd>윤세현</dd>
+			<dt>생년월일</dt>
+			<dd>1999년11월25일</dd>
+			<dt>사는 곳</dt>
+			<dd>거제도</dd>
+		</dl>
+ 
+        <h2>교육</h2>
+		<table>
+			<thead>
+				<th>기간</th>
+				<th>기간/과목명</th>
+				<th>상태</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2018.03 ~ 2024.02</td>
+					<td>무인이동체공학과</td>
+					<td>졸업</td>
+				</tr>
+			</tbody>
+		</table>
+		<h2 class="emphasize">취미</h2>
+		<ul>
+			<li>게임</li>
+			<li>유튜브</li>
+		</ul>
+		<form>
+			<input type="email" placeholder="이메일">
+			<textarea placeholder="하실말씀"></textarea>
+			<input type="submit">
+		</form>
+	</body>
+</html>
